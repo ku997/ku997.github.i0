@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./styles/css/index.css">
+    <title>Главная</title>
+</head>
+
+<body data-barba="wrapper">
+    <div class="main" data-barba="container" data-barba-namespace="home">
+        <div class="main__background"></div>
+        <div class="header">
+            <a href="/" class="header__logo">
+                <div class="header__logo-img">
+                    <img src="./assets/index/logo.svg" alt="logo">
+                </div>
+                <p class="header__logo-text">Производитель инновационных и полезных продуктов медицинского и около
+                    медицинского назначения</p>
+            </a>
+            <div class="header__menu-wrapper">
+                <ul class="header__menu">
+                    <li class="header__menu-item"><a href="#" class="header__menu-link">Проекты</a></li>
+                    <li class="header__menu-item"><a href="./services.html" class="header__menu-link">Услуги</a></li>
+                    <li class="header__menu-item"><a href="./contacts.html" class="header__menu-link">Контакты</a></li>
+                </ul>
+                <div class="lang-switcher language__select-wrapper">
+                    <div class="language__select">
+                        <div class="language__select-image">
+                            <img src="./assets/index/globus.svg" alt="lang-icon">
+                        </div>
+                        <span class="lang-switcher-value language__select-value">RU</span>
+                        <span class="language__select-chevron"></span>
+                    </div>
+                    <ul class="lang-switcher-options language__select-options">
+                        <li class="language__select-option">RU</li>
+                        <li class="language__select-option">EN</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header__sidebar">
+                <div class="header__sidebar-background"></div>
+                <div class="header__sidebar-search">
+                    <img src="./assets/index/search.svg" alt="search">
+                </div>
+                <div class="header__sidebar-burger sidebar-toggler">
+                    <span></span>
+                </div>
+            </div>
+            <div id="header__search" class="header__search">
+                <div class="header__search-background"></div>
+                <div class="header__search-inner">
+                    <input class="header__search-input" type="search" id="search" placeholder="Поиск..." />
+                    <button class="header__search-button"><img src="./assets/index/search.svg" alt=""></button>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="swiper content__slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide content__slider-slide content__slider-slide--in-motion">
+                        <div class="service">
+                            <div class="service__top">
+                                <h2 class="h1">ДИОДНЫЙ ЛАЗЕР ДЛЯ ЭПИЛЯЦИИ IN-MOTION D1 / D2ТМ</h2>
+                                <div class="service__description">
+                                    <p>Опираясь на многолетний международный опыт исследований и
+                                        научных открытий, мы, как производители, могли воспроизвести любые технические
+                                        параметры, позволяющие добиться максимальной результативности. Что мы и сделали…
+                                    </p>
+                                    <p>Так и появились аппараты серии In-Motion.</p>
+                                    <p>In-Motion, это когда продукт находится выше маркетинга.</p>
+                                </div>
+                            </div>
+                            <div class="service__bottom">
+                                <div class="service__progress">
+                                    <div class="service__progress-text">проект реализован на
+                                        <span class="service__progress-count">100%</span>
+                                    </div>
+                                    <div class="service__progress-bar"><span style="width: 100%;"></span></div>
+                                </div>
+                                <a href="in-motion.html" class="service__about-link">УЗНАТЬ ПОДРОБНЕЕ О ПРОЕКТЕ</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide content__slider-slide content__slider-slide--redbutton">
+                        <div class="service">
+                            <div class="service__top">
+                                <h2 class="h1">ЛАЗЕР ДЛЯ ЭПИЛЯЦИИ MIRACLE™ ИЗ ЛИНЕЙКИ REDBUTTON</h2>
+                                <div class="service__description">
+                                    <p>В данной модели учтены многие требования современного рынка – начиная от
+                                        передового программного обеспечения с собственной CRM системой и возможностью
+                                        интеграции по отрытому API с любой платформой, заканчивая измерением плотности
+                                        энергии, его калибровкой в случае необходимости и регулировкой длительности
+                                        импульса.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="service__bottom">
+                                <div class="service__progress">
+                                    <div class="service__progress-text">проект реализован на
+                                        <span class="service__progress-count">75%</span>
+                                    </div>
+                                    <div class="service__progress-bar"><span style="width: 75%;"></span></div>
+                                </div>
+                                <a href="./miracle.html" class="service__about-link">УЗНАТЬ ПОДРОБНЕЕ О ПРОЕКТЕ</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide content__slider-slide content__slider-slide--oracle">
+                        <div class="service">
+                            <div class="service__top">
+                                <h2 class="h1">ДИАГНОСТИКА ЗАБОЛЕВАНИЙ КОЖИ ORACLE™</h2>
+                                <div class="service__description">
+                                    <p>Oracle™ производит картирование к ожного покрова всего тела для дальнейшей
+                                        диагностики новообразований и любых кожных изменений, выявляя заболевание на
+                                        самой ранней стадии.
+                                    </p>
+                                    <p>Диагностика такого типа не имеет противопоказаний и длится не более 10 минут.</p>
+                                </div>
+                            </div>
+                            <div class="service__bottom">
+                                <div class="service__progress">
+                                    <div class="service__progress-text">проект реализован на
+                                        <span class="service__progress-count">10%</span>
+                                    </div>
+                                    <div class="service__progress-bar"><span style="width: 10%;"></span></div>
+                                </div>
+                                <a href="#" class="service__about-link">УЗНАТЬ ПОДРОБНЕЕ О ПРОЕКТЕ</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide content__slider-slide content__slider-slide--monster">
+                        <div class="service">
+                            <div class="service__top">
+                                <h2 class="h1">ДЕТСКИЙ ТЕРМОМЕТР MONSTER-0C</h2>
+                                <div class="service__description">
+                                    <p>Электронный водонепроницаемый термометр-соска, разработанный специально для
+                                        детей.
+                                    </p>
+                                    <p>Проводит измерение температуры тела за 6-8 секунд.</p>
+                                    <p>Точность измерения ± 0,02 °C.</p>
+                                    <p>При повышенной температуре прибор подает звуковой сигнал.</p>
+                                </div>
+                            </div>
+                            <div class="service__bottom">
+                                <div class="service__progress">
+                                    <div class="service__progress-text">проект реализован на
+                                        <span class="service__progress-count">80%</span>
+                                    </div>
+                                    <div class="service__progress-bar"><span style="width: 80%;"></span></div>
+                                </div>
+                                <a href="./monster.html" class="service__about-link">УЗНАТЬ ПОДРОБНЕЕ О ПРОЕКТЕ</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination content__slider-pagination"></div>
+            </div>
+            <aside class="sidebar">
+                <div class="sidebar-toggler cross">
+                    <span></span>
+                </div>
+                <div class="sidebar-inner">
+                    <div class="desktop">
+                        <p href="#" class="sidebar-service">Услуги:</p>
+                        <ul class="sidebar-services">
+                            <li class="sidebar-services-item">
+                                <a href="#" class="sidebar-services-link">Контрактное производство медицинской
+                                    техники</a>
+                            </li>
+                            <li class="sidebar-services-item">
+                                <a href="#" class="sidebar-services-link">Разработка медицинских изделий</a>
+                            </li>
+                            <li class="sidebar-services-item">
+                                <a href="#" class="sidebar-services-link">Разработка программного обеспечения
+                                    медицинской техники</a>
+                            </li>
+                            <li class="sidebar-services-item">
+                                <a href="#" class="sidebar-services-link">Локализация медицинской техники</a>
+                            </li>
+                            <li class="sidebar-services-item"><a href="#" class="sidebar-services-link">Регистрация
+                                    медицинской техники в
+                                    Министерстве Здраввоохранения</a>
+                            </li>
+                        </ul>
+                        <a href="#" class="sidebar-service">Информация для дилеров</a>
+                        <a href="#" class="sidebar-service">Информация для инвесторов</a>
+                    </div>
+                    <div class="mobile">
+                        <div class="sidebar__menu-wrapper">
+                            <ul class="sidebar__menu">
+                                <li class="sidebar__menu-item"><a href="#" class="sidebar__menu-link">Проекты</a></li>
+                                <li class="sidebar__menu-item"><a href="#" class="sidebar__menu-link">Услуги</a></li>
+                                <li class="sidebar__menu-item"><a href="#" class="sidebar__menu-link">Контакты</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="sidebar__partner">
+                        <img src="./assets/index/patner.svg" alt="">
+                        <div class="sidebar__partner-text">ПАРТНЕР<br>МОСКОВСКОГО<br>ИННОВАЦИОННОГО<br>КЛАСТЕРА
+                        </div>
+                    </div>
+                    <p class="sidebar__license">Номер лицензии на производство и обслуживание медицинской техники №
+                        ФС-99-04-007176 от 02 июня 2020 г.</p>
+                </div>
+                <div class="sidebar__policy">
+                    <div class="sidebar__policy-inner">
+                        <div class="mobile">
+                            <div class="lang-switcher language__select-wrapper">
+                                <div class="language__select">
+                                    <div class="language__select-image">
+                                        <img src="./assets/index/globus.svg" alt="lang-icon">
+                                    </div>
+                                    <span class="lang-switcher-value language__select-value">RU</span>
+                                    <span class="language__select-chevron"></span>
+                                </div>
+                                <ul class="lang-switcher-options language__select-options">
+                                    <li class="language__select-option">RU</li>
+                                    <li class="language__select-option">EN</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p class="sidebar__policy-copyright">© 2019-2022, ВСЕ ПРАВА ЗАЩИЩЕНЫ<br>Копирование материалов
+                            запрещено</p>
+                    </div>
+                    <div class="sidebar__policy-text"><a href="#">Пользовательское соглашение</a> / <a href="#">Политика
+                            конфиденциальности</a></div>
+                </div>
+            </aside>
+        </div>
+    </div>
+    <script crossorigin="anonymous"
+        src="https://polyfill.io/v3/polyfill.min.js?features=default%2CArray.prototype.find%2CIntersectionObserver"></script>
+    <script src="https://unpkg.com/swiper@5.0.0/js/swiper.js"></script>
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.3/gsap.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
